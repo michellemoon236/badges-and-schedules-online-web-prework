@@ -18,8 +18,9 @@ end
 speaker_rooms
 end
 
-def printer (attendees)
-  puts batch_badge_creator (attendees)
-  puts assign_rooms (attendees)
+def printer (array3)
+    array3.collect do |name|
+    puts batch_badge_creator (name)
+end
 end
 
