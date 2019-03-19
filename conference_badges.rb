@@ -11,8 +11,8 @@ end
 
 
 def assign_rooms (array2)
-  array2.collect do |speaker|
-    "Hello, #{speaker}! You'll be assigned to room  "
+  array2.each_with_index do |speaker, index|
+    "Hello, #{speaker}! You'll be assigned to room #{index +1} "
 end
 
 def printer
