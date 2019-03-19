@@ -19,7 +19,7 @@ speaker_rooms
 end
 
 def printer (array3)
-    array3.collect do |name|
+    array3.each do |name|
     puts batch_badge_creator (name)
     puts assign_rooms (name)
 end
