@@ -12,7 +12,7 @@ end
 
 def assign_rooms (array2)
   array2.collect do |speaker|
-    "Hello, #{speaker}! You'll be assigned to room each_with_index + 1 "
+    "Hello, #{speaker}! You'll be assigned to room  "
 end
 
 def printer
