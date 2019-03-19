@@ -21,6 +21,7 @@ end
 def printer (array3)
     array3.collect do |name|
     puts batch_badge_creator (name)
+    puts assign_rooms (name)
 end
 end
 
