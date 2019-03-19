@@ -18,7 +18,7 @@ end
 speaker_rooms
 end
 
-def printer (person)
+def printer (attendees)
   puts batch_badge_creator (person)
   puts assign_rooms (person)
 end
