@@ -20,7 +20,7 @@ end
 speaker_rooms
 end
 
-def printer
+def printer (attendees)
   batch_badge_creator.each do |i|
     puts i
   end
